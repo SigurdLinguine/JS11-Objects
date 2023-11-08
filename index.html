@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS11 Objects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="object">
+        <p id="firmaNavn"></p>
+        <p id="antallAnsatte"></p>
+        <p id="bilListe"></p>
+        <p id="betaltSkatt"></p>
+        <p id="nettsideNavn"></p>
+    </div>
+    <div>
+        <button id="skrivUt" onclick=skrivUt()>Skriv ut</button>
+        
+        <button id="leggTilNyBil" onclick=leggTilNyBil()>Legg Til Ny Bil</button>
+        <button id="slettForsteBil" onclick=slettForsteBil()>Slett Første Bil i Listen</button>
+        <button id="skrivUtForsteBil" onclick=skrivUtForsteBil()>Skriv ut Første Bil</button>
+        <button id="skrivUtSisteBil" onclick=skrivUtSisteBil()>Skriv ut Siste Bil</button>
+    </div>
+    <br>
+    <div>
+        <button id="byttFirmaNavn" onclick=byttFirmaNavn()>Bytt Firmanavn</button>
+        <button id="fjernNettside" onclick=fjernNettside()>Fjern Nettside</button>
+        <button id="leggTilStatus" onclick=leggTilStatus()>Legg Til Status</button>
+        <button id="skrivUtNokler" onclick=skrivUtNokler()>Skriv ut Nøkler</button>
+    </div>
+    <div>
+        <p id="nokler"></p>
+        <p id="forsteBil"></p>
+        <p id="sisteBil"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
